@@ -1,11 +1,10 @@
-package test;
+package practicalQuestions;
 
-public class HelloJava {
+public class Hi {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello World");
-
+		System.out.println("Hi");
 	}
 
 }
