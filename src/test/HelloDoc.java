@@ -20,7 +20,7 @@ public class HelloDoc {
 		System.out.println(b);				// "Hello" 출력
 		System.out.println(TEN);			// 10 출력
 		System.out.println(j);				// 11 출력
-		
+		// 00
 	}
 
 }
