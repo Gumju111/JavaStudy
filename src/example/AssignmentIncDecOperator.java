@@ -14,13 +14,10 @@ public class AssignmentIncDecOperator {
 		// 증감 연산자 사례
 		a = d++;	// a=3, d=4
 		System.out.println("a=" + a + ", d=" + d);
-		
 		a = ++d;	// d=5, a=5
 		System.out.println("a=" + a + ", d=" + d);
-		
 		a = d--;	// a=5, d=4
 		System.out.println("a=" + a + ", d=" + d);
-		
 		a = --d;	// d=3, a=3
 		System.out.println("a=" + a + ", d=" + d);
 		
