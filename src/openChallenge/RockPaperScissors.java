@@ -14,32 +14,31 @@ public class RockPaperScissors {
 		System.out.print("철수 >>");	// 철수 입력
 		name2 = scanner.nextLine();
 		
-		if(name1.equals("가위")) {
-			if(name2.equals("가위")) 
+		if(name1.equals("가위")) {			// 영희
+			if(name2.equals("가위")) 		// 철수가 가위를 냈을때
 				System.out.println("비겼습니다.");
-			else if(name2.equals("바위")) 
+			else if(name2.equals("바위"))	// 철수가 바위를 냈을때
 				System.out.println("철수가 이겼습니다.");
-			else if(name2.equals("보")) 
+			else if(name2.equals("보"))		// 철수가 보를 냈을때
 				System.out.println("영희가 이겼습니다.");
-		}
-		if(name1.equals("바위")) {
-			if(name2.equals("바위")) 
+		}// if
+		if(name1.equals("바위")) {			// 영희
+			if(name2.equals("바위")) 		// 철수가 바위를 냈을때
 				System.out.println("비겼습니다.");
-			else if(name2.equals("가위")) 
+			else if(name2.equals("가위"))	// 철수가 가위를 냈을때
 				System.out.println("영희가 이겼습니다.");
-			else if(name2.equals("보")) 
+			else if(name2.equals("보"))		// 철수가 보를 냈을때
 				System.out.println("철수가 이겼습니다.");
-		}
-		if(name1.equals("보")) {
-			if(name2.equals("보"))
+		}// if
+		if(name1.equals("보")) {			// 영희
+			if(name2.equals("보"))			// 철수가 보를 냈을때
 				System.out.println("비겼습니다.");
-			else if(name2.equals("가위"))
+			else if(name2.equals("가위"))	// 철수가 가위를 냈을때
 				System.out.println("철수가 이겼습니다.");
-			else if(name2.equals("바위"))
+			else if(name2.equals("바위"))	// 철수가 바위를 냈을때
 				System.out.println("영희가 이겼습니다.");
-		}
-		scanner.close();
-	}
-
+		}// if
+		scanner.close();	// 입력종료
+	}// main()
 }
  

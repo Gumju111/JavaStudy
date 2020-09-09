@@ -1,8 +1,8 @@
-package openChallenge1;
+package openChallenge;
 
 public class MyInfoApp {
 
-	public static void main(String[] args) {
+	public static void main1(String[] args) {
 		// TODO Auto-generated method stub
 		String name = "Hyelim";
 		String age = "24 years old";
@@ -19,5 +19,4 @@ public class MyInfoApp {
 		System.out.println("Department of Computer Engineering");
 		
 	}
-
 }
