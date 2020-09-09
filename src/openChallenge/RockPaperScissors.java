@@ -38,7 +38,7 @@ public class RockPaperScissors {
 			else if(name2.equals("바위"))	// 철수가 바위를 냈을때
 				System.out.println("영희가 이겼습니다.");
 		}// if
-		scanner.close();	// 입력종료
+		scanner.close();// 입력종료
 	}// main()
 }
  
