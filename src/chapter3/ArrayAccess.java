@@ -17,6 +17,6 @@ public class ArrayAccess {
 		System.out.print("가장 큰 수는 " + max + "입니다.");
 		
 		scanner.close();
-	}
+	} //main
 
 }
