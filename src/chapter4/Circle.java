@@ -24,5 +24,4 @@ public class Circle {
 		area = donut.getArea();			// 도넛의 면적 알아내기
 		System.out.println(donut.name + "의 면적은 " + area);
 	}
-
 }
