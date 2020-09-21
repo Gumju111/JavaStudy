@@ -26,7 +26,4 @@ public class Book2 {
 		Book2 emptyBook = new Book2();
 		loveStory.show();
 	}
-
-	
-
 }
