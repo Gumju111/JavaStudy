@@ -9,6 +9,17 @@ class Point{
 		System.out.println("(" + x + "," + y + ")");
 	}
 }
+
+class ColorPoint extends Point {
+	private String color;
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public void showColorPoint() {
+		System.out.print(color);
+		showPoint();	// Point 클래스의 showPoint() 호출
+	}
+}
 public class ColorPointEx {
 	public static void main(String[] args) {
 
