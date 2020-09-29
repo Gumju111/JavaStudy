@@ -1,4 +1,5 @@
 package chapter5;
+
 class Person2 { }
 class Student3 extends Person2 { }
 class Researcher extends Person2 {}
@@ -21,5 +22,4 @@ public class InstanceOfEx {
 		System.out.print("new Researcher() ->\t"); print(new Researcher());
 		System.out.print("new Professor() ->\t");		print(new Professor());
 	}
-
 }
